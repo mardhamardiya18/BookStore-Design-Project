@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/main.css" />
+
+    <title>ReviewBook | Homepage</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-transparent py-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">Review<span>Book</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="input-group mx-auto mt-5 mt-lg-0">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Mau cari buku apa ?"
+            />
+            <button
+              class="btn-search d-flex align-items-center justify-content-center"
+              type="button"
+              id="button-addon2"
+            >
+              <i class="bx bx-search bx-sm"></i>
+            </button>
+          </div>
+          <ul class="navbar-nav ms-auto mt-4 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bx bx-heart"></i></a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#"
+                ><i class="bx bx-cart-alt"></i>
+                <span
+                  class="badge text-bg-warning rounded-circle position-absolute"
+                  >2</span
+                ></a
+              >
+            </li>
+            <li class="nav-item me-lg-3 me-0 mt-5 mt-lg-0">
+              <a class="nav-link btn-second text-center" href="#">Login</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="nav-link btn-first text-center" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menu -->
+    <div class="container mt-3 mt-sm-4 menu-wrapper">
+      <div class="row">
+        <div class="col-12">
+          <div class="menu d-none d-sm-flex justify-content-center">
+            <a href="#" class="active">Home</a>
+            <a href="#">Best Seller</a>
+            <a href="#">Category</a>
+            <a href="#">Community</a>
+            <a href="#">Blog</a>
+          </div>
+
+          <div
+            class="form-select form-select-sm py-2 d-sm-none"
+            aria-label=".form-select-sm example"
+            data-bs-toggle="collapse"
+            href="#collapseMenu"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            <p class="m-0">Menu</p>
+          </div>
+          <div class="collapse" id="collapseMenu">
+            <div class="card card-body">
+              <div class="list-group">
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action active"
+                >
+                  Home
+                </a>
+                <a href="#" class="list-group-item list-group-item-action"
+                  >Best Seller</a
+                >
+                <a href="#" class="list-group-item list-group-item-action"
+                  >Category</a
+                >
+                <a href="#" class="list-group-item list-group-item-action"
+                  >Community</a
+                >
+                <a class="list-group-item list-group-item-action disabled"
+                  >Blog</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
