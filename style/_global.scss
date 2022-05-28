@@ -5,7 +5,7 @@
 }
 
 .btn-first {
-  padding: 14px 28px !important;
+  padding: 12px 24px !important;
   border-radius: 8px;
   background-color: $button_color;
   color: #fff;
@@ -21,7 +21,7 @@
 }
 
 .btn-second {
-  padding: 14px 28px !important;
+  padding: 12px 24px !important;
   border-radius: 8px;
   border: 1px solid $button_color;
   color: $button_color;
@@ -95,6 +95,25 @@
     &.active {
       color: #93ae18;
       font-weight: map-get($fonts_weight, bold);
+    }
+  }
+}
+
+.header {
+  margin-top: 100px;
+  @include media-breakpoint-down(sm) {
+    margin-top: 50px;
+  }
+
+  .carousel-indicators {
+    button {
+      background-color: $button_color;
+      height: 6px !important;
+      border-radius: 5px;
+
+      @include media-breakpoint-down(sm) {
+        height: 2px !important;
+      }
     }
   }
 }

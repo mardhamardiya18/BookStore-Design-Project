@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img/svg" href="images/logo.svg" />
 
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
@@ -34,7 +35,7 @@
             <input
               type="text"
               class="form-control"
-              placeholder="Mau cari buku apa ?"
+              placeholder="What book are you looking for?"
             />
             <button
               class="btn-search d-flex align-items-center justify-content-center"
@@ -46,11 +47,13 @@
           </div>
           <ul class="navbar-nav ms-auto mt-4 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bx bx-heart"></i></a>
+              <a class="nav-link" href="#"
+                ><i class="bx bx-heart bx-tada-hover"></i
+              ></a>
             </li>
             <li class="nav-item me-5">
               <a class="nav-link" href="#"
-                ><i class="bx bx-cart-alt"></i>
+                ><i class="bx bx-cart-alt bx-tada-hover"></i>
                 <span
                   class="badge text-bg-warning rounded-circle position-absolute"
                   >2</span
@@ -119,6 +122,60 @@
       </div>
     </div>
 
+    <!-- Header -->
+    <section class="header">
+      <div class="container">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-touch="true"
+          data-bs-pause="hover"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner" id="myCarousel">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <a href="#"
+                ><img src="images/banner.png" class="d-block w-100" alt="..."
+              /></a>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <a href="#"
+                ><img src="images/banner.png" class="d-block w-100" alt="..."
+              /></a>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <a href="#"
+                ><img src="images/banner.png" class="d-block w-100" alt="..."
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js"></script>
   </body>
 </html>
