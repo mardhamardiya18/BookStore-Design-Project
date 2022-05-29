@@ -117,3 +117,109 @@
     }
   }
 }
+
+.popular {
+  margin-top: 150px;
+  @include media-breakpoint-down(sm) {
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 30px;
+    color: $accen;
+    @include media-breakpoint-down(sm) {
+      font-size: 20px;
+    }
+  }
+
+  .row-card {
+    .rating {
+      i {
+        color: #b6db11;
+        font-size: 22px;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .title {
+      font-size: 22px;
+      color: $accen;
+      font-weight: map-get($fonts_weight, bold);
+
+      @include media-breakpoint-down(sm) {
+        font-size: 16px;
+      }
+    }
+
+    img {
+      width: 200px;
+    }
+
+    .category {
+      font-size: 12px;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 10px;
+      }
+    }
+
+    .cart {
+      .price {
+        color: $accen;
+        font-size: 20px;
+        font-weight: map-get($fonts_weight, bold);
+
+        @include media-breakpoint-down(sm) {
+          font-size: 12px;
+        }
+      }
+      i {
+        font-size: 25px;
+        color: #fff;
+
+        @include media-breakpoint-down(sm) {
+          font-size: 16px;
+        }
+      }
+      .btn-cart {
+        background-color: $button_color;
+        padding: 10px;
+        border-radius: 8px;
+
+        @include media-breakpoint-down(sm) {
+          padding: 6px;
+        }
+
+        &:hover {
+          background-color: #93ae18;
+        }
+      }
+    }
+  }
+}
+
+.subscriptions {
+  margin-top: 150px;
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 100px;
+  }
+
+  .container {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    background-size: cover;
+
+    .col-sub {
+      padding: 120px 0;
+      @include media-breakpoint-down(sm) {
+        padding: 80px 0;
+      }
+    }
+  }
+}
