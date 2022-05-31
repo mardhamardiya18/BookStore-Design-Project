@@ -391,4 +391,24 @@ footer .row-copy i {
     font-size: 14px;
   }
 }
+
+.shipping h3 {
+  font-size: 25px;
+  color: #463c74;
+  font-weight: 700;
+}
+
+.payment h3 {
+  font-size: 25px;
+  color: #463c74;
+  font-weight: 700;
+}
+
+.payment .btn-checkout {
+  background-color: #b4d51e;
+}
+
+.payment .btn-checkout:hover {
+  background-color: #93ae18;
+}
 /*# sourceMappingURL=main.css.map */

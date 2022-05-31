@@ -354,3 +354,27 @@ footer {
     }
   }
 }
+
+// Cart CSS
+.shipping {
+  h3 {
+    font-size: 25px;
+    color: $accen;
+    font-weight: map-get($fonts_weight, bold);
+  }
+}
+
+.payment {
+  h3 {
+    font-size: 25px;
+    color: $accen;
+    font-weight: map-get($fonts_weight, bold);
+  }
+  .btn-checkout {
+    background-color: $button_color;
+
+    &:hover {
+      background-color: #93ae18;
+    }
+  }
+}
