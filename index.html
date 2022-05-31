@@ -16,7 +16,7 @@
     <title>BookStore | Homepage</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-transparent py-4">
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm py-4 fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Book<span>Store</span></a>
         <button
@@ -31,7 +31,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="input-group mx-auto mt-5 mt-lg-0">
+          <div class="input-group mx-auto mt-lg-0">
             <input
               type="text"
               class="form-control"
@@ -60,7 +60,7 @@
                 ></a
               >
             </li>
-            <li class="nav-item me-lg-3 me-0 mt-5 mt-lg-0">
+            <li class="nav-item me-lg-3 me-0 mt-4 mt-lg-0">
               <a class="nav-link btn-second text-center" href="#">Login</a>
             </li>
             <li class="nav-item mt-3 mt-lg-0">
@@ -72,10 +72,10 @@
     </nav>
 
     <!-- Menu -->
-    <div class="container mt-3 mt-sm-4 menu-wrapper">
+    <div class="container menu-wrapper fixed-top">
       <div class="row">
         <div class="col-12">
-          <div class="menu d-none d-sm-flex justify-content-center">
+          <div class="menu d-none d-lg-flex justify-content-center">
             <a href="#" class="active">Home</a>
             <a href="#">Best Seller</a>
             <a href="#">Category</a>
@@ -84,7 +84,7 @@
           </div>
 
           <div
-            class="form-select form-select-sm py-2 d-sm-none"
+            class="form-select form-select-sm py-2 d-lg-none"
             aria-label=".form-select-sm example"
             data-bs-toggle="collapse"
             href="#collapseMenu"
