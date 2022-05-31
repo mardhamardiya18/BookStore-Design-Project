@@ -330,7 +330,27 @@ footer {
 }
 
 .detail-description {
+  h3 {
+    font-size: 25px;
+  }
   p {
     font-weight: map-get($fonts_weight, light);
+  }
+}
+
+.review {
+  i {
+    font-size: 20px;
+    color: $button_color;
+  }
+  h3 {
+    font-size: 25px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    .name,
+    .timestamp {
+      font-size: 14px;
+    }
   }
 }

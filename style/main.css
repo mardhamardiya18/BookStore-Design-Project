@@ -368,7 +368,27 @@ footer .row-copy i {
   color: #463c74;
 }
 
+.detail-description h3 {
+  font-size: 25px;
+}
+
 .detail-description p {
   font-weight: 300;
+}
+
+.review i {
+  font-size: 20px;
+  color: #b4d51e;
+}
+
+.review h3 {
+  font-size: 25px;
+}
+
+@media (max-width: 575.98px) {
+  .review .name,
+  .review .timestamp {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
