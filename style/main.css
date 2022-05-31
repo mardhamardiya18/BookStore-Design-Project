@@ -10,6 +10,8 @@
   font-family: "Merriweather", serif;
   list-style: none !important;
   text-decoration: none !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -339,5 +341,24 @@ footer ul li {
 footer .row-copy i {
   font-size: 40px;
   color: #b4d51e;
+}
+
+.detail-product img {
+  width: 300px;
+}
+
+.detail-product hr {
+  border: 1px solid #463c7493;
+}
+
+.detail-product .rate i {
+  font-size: 30px;
+  color: #b6db11;
+}
+
+.detail-product .price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #463c74;
 }
 /*# sourceMappingURL=main.css.map */

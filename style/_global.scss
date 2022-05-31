@@ -2,6 +2,7 @@
   font-family: "Merriweather", serif;
   list-style: none !important;
   text-decoration: none !important;
+  box-sizing: border-box;
 }
 
 body {
@@ -298,5 +299,28 @@ footer {
       font-size: 40px;
       color: $button_color;
     }
+  }
+}
+
+// DETAIL CSS
+.detail-product {
+  img {
+    width: 300px;
+  }
+  hr {
+    border: 1px solid #463c7493;
+  }
+
+  .rate {
+    i {
+      font-size: 30px;
+      color: #b6db11;
+    }
+  }
+
+  .price {
+    font-size: 24px;
+    font-weight: map-get($fonts_weight, bold);
+    color: $accen;
   }
 }
