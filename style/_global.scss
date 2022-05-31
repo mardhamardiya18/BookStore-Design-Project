@@ -306,6 +306,10 @@ footer {
 .detail-product {
   img {
     width: 300px;
+
+    @include media-breakpoint-down(sm) {
+      width: 200px;
+    }
   }
   hr {
     border: 1px solid #463c7493;

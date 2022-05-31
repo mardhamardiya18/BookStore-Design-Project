@@ -347,6 +347,12 @@ footer .row-copy i {
   width: 300px;
 }
 
+@media (max-width: 575.98px) {
+  .detail-product img {
+    width: 200px;
+  }
+}
+
 .detail-product hr {
   border: 1px solid #463c7493;
 }
