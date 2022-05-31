@@ -367,4 +367,8 @@ footer .row-copy i {
   font-weight: 700;
   color: #463c74;
 }
+
+.detail-description p {
+  font-weight: 300;
+}
 /*# sourceMappingURL=main.css.map */

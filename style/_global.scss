@@ -328,3 +328,9 @@ footer {
     color: $accen;
   }
 }
+
+.detail-description {
+  p {
+    font-weight: map-get($fonts_weight, light);
+  }
+}
